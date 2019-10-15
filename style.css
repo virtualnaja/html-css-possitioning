@@ -1,0 +1,90 @@
+body{
+  background-color:black;
+}
+
+.space-1{
+  display:flex;
+  flex-wrap:wrap;
+  padding-left: 150px;
+  justify-content: flex-end;
+}
+.space-2{
+  display:flex;
+}
+.space-3{
+  display:flex;
+  background-color:red;
+}
+.space-4{
+  display:flex;
+}
+.space-5{
+  display:flex;
+  justify-content:flex-end;
+}
+.space-6{
+  display:flex;
+  justify-content:space-around;
+  background-color: red;
+}
+.space-7{
+  display:flex;
+  justify-content: center;
+  flex-basis:40%;
+}
+.space-1 div, .space-2 div, .space-3 div, .space-4 div,
+.space-5 div, .space-6 div, .space-7 div{
+  border:1px #ccc solid;
+  padding:10px;
+  color:white;
+  text-align: center;
+}
+.gratitude{
+  flex-basis:30%;
+  order:2;
+}
+.compassion{
+  flex-basis:30%;
+  order:1;
+}
+.appreciation{
+  flex-basis:30%;
+  order:3;
+}
+.care{
+  flex-basis: 25%;
+}
+.feel{
+  text-align: center;
+  flex-basis: 100%;
+}
+.coherence{
+  flex:1;
+}
+.three{
+  flex-direction: column;
+  flex-basis:50%;
+}
+.heart{
+  flex:1;
+}
+.and{
+  flex:1;
+}
+.brain{
+  flex:1;
+}
+.harmonize{
+  flex-basis:30%;
+}
+.feeel{
+  flex:1;
+}
+.feeeel{
+  flex:1;
+}
+.sense{
+  flex-basis:30%;
+}
+
+
